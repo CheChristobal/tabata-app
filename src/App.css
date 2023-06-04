@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+.timer {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exercise {
+  background-color: green;
+  color: #fff;
+}
+
+.rest {
+  background-color: red;
+  color: #fff;
+}
+.slider {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  margin-top: 10px;
+}
+
+.slider input {
+  width: 100%;
+}
+
+.remaining {
+  font-size: 18px;
+  margin-top: 10px;
+}
+/* Estilos CSS previos */
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.timer {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+.remaining {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.exercise {
+  background-color: green;
+}
+
+.rest {
+  background-color: red;
 }
